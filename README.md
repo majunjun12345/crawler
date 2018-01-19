@@ -22,7 +22,7 @@ pip install pyquery
 
 ## windows
 1. 装依赖 pip install splinter
-2. 把 chrome 驱动加 path
+2. 把 chrome / firefox 驱动加 path
 
 ## linux
 
