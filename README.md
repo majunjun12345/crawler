@@ -6,7 +6,7 @@
 pip install request
 pip install pyquery
 ``` 
-3. `douban1.py` 最基础的爬虫
+3. `douban1.py` 最基础的爬虫  / 后来加入了 mongodb 数据库
 4. `douabn2.py` 爬了多个页面
 5. `douabn3.py` 加入了页面缓存功能
     - 代码写错了
