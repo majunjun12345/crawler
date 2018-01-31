@@ -42,5 +42,8 @@ sudo pip3 install splinter
 ```
 
 
-# douban3.py 运行展示
+# douban3.py 缓存页面内容（方便二次爬取）
 ![img](https://github.com/majunjun12345/crawler/blob/master/%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA/%E7%BC%93%E5%AD%98%E9%A1%B5%E9%9D%A2.gif)
+
+# douban4.py 保存图片
+![img](https://github.com/majunjun12345/crawler/blob/master/%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA/%E5%AD%98%E5%9B%BE.gif)
