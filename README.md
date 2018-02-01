@@ -24,26 +24,12 @@ pip install pyquery
 1. 装依赖 pip install splinter
 2. 把 chrome / firefox 驱动加 path
 
-## linux
-
-```bash
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
-sudo apt-get update 
-sudo apt-get install unzip google-chrome-stable
-
-wget https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
-unzip chromedriver_linux64.zip
-mkdir -p $HOME/bin
-mv chromedriver $HOME/bin
-echo "export PATH=$PATH:$HOME/bin" >> $HOME/.bash_rc
-source $HOME/.bash_rc
-sudo pip3 install splinter
-```
-
 
 # douban3.py 缓存页面内容（方便二次爬取）
 ![img](https://github.com/majunjun12345/crawler/blob/master/%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA/%E7%BC%93%E5%AD%98%E9%A1%B5%E9%9D%A2.gif)
 
 # douban4.py 保存图片
 ![img](https://github.com/majunjun12345/crawler/blob/master/%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA/%E5%AD%98%E5%9B%BE.gif)
+
+# zhihu1.py 伪装登陆
+![img](https://github.com/majunjun12345/crawler/blob/master/%E5%8A%9F%E8%83%BD%E5%B1%95%E7%A4%BA/%E4%BC%AA%E8%A3%85%E7%99%BB%E5%BD%95.gif)
