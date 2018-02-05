@@ -36,9 +36,6 @@ def scroll_to_end(browser):
 def start_crawler():
     # 火狐浏览器的配置文件，里面有各网站的密码等
     option = config.profile
-    # 垃圾 chrome 有 bug https://bugs.chromium.org/p/chromium/issues/detail?id=617931
-    # 不能 --user-data-dir 和 --headless 一起用
-    # 改回用 cookie
 
     with Browser(profile=option) as browser:
         url = "https://www.zhihu.com"
