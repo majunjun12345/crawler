@@ -1,7 +1,7 @@
 # 普通爬虫
 
 1. 爬虫的原理: url -> html -> model (洗数据) -> 分析
-2. request pyquery
+2. 两个库：request pyquery
 ```
 pip install request
 pip install pyquery
@@ -13,9 +13,9 @@ pip install pyquery
     - 页面不规整
     - 老板加需求
     - 有缓存上面三种情况都很容易处理
-6. 下载图片
-7. 伪装登录状态
-8. 动态内容的爬取
+6. `douban4.py` 加入了下载图片
+7.`zhihu1` 伪装登录状态
+8. `zhihu2` 动态内容的爬取
 
 
 # 超高级爬虫
