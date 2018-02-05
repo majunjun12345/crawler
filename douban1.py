@@ -4,17 +4,10 @@ from pyquery import PyQuery as pq
 from pymongo import MongoClient
 
 
-"""
-这是一个普通爬虫
-下载网页并解析打印出来
-但是只下载了一个网页
-并加入了 mongodb 数据库
-"""
-
 
 class Model(object):
 
-    db = MongoClient().web16_4_pachong
+    db = MongoClient().douban1
 
     def __repr__(self):
         name = self.__class__.__name__
